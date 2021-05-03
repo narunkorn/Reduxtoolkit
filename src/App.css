@@ -1,4 +1,83 @@
-.App {
+.postapp-header{
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  padding: 0px 15px;
+  background-color: chartreuse;
+}
+
+.postapp-header-add-button{
+  height: 40px;
+}
+
+.postapp-postlist{
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+ align-items: center;
+
+}
+
+.postapp-postitem{
+  background-color: coral;
+  width: 50%;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 5px;
+
+}
+.post-edit-button{
+  margin-left: 80%;
+
+}
+/* .post-delete-button{
+  margin-left: 80%;
+  
+  
+} */
+
+
+ .AddPostPage{
+   margin-left: 5%;
+ }
+ .AddTitle{
+  margin-left: 8%;
+  border-style: solid red;
+ }
+ .Title{
+  font-size: 20px;
+ }
+ .Titlesquare1{
+  width: 30%;
+  height: 30px;
+  border-radius: 10px;
+ }
+ .AddDescription{
+  margin-left: 8%;
+  margin-top: 2%;
+ }
+ .Descriptio{
+  font-size: 20px;
+ }
+ .Titlesquare2{
+  width: 30%;
+  height: 200px;
+  border-radius: 15px;
+ }
+ .AddPostPagButtton{
+  width: 5%;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 18%;
+  margin-top: 2%;
+ }
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +114,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
